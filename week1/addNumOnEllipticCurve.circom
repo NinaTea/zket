@@ -1,7 +1,7 @@
 // Code modified from circomlib test
 pragma circom 2.1.6;
 
-include "../node_modules/circomlib/circuits/babyjub.circom";
+include "node_modules/circomlib/circuits/babyjub.circom";
 
 template AddNumOnEllipticCurve() {
     signal input x1;
